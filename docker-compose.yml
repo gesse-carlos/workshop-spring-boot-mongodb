@@ -3,7 +3,7 @@ services:
   springboot:
     build: .
     environment:
-      - SPRING_DATA_MONGODB_URI=mongodb
+      - SPRING_DATA_MONGODB_URI=workshop_mongodb
     container_name: workshop_api
     ports: 8080:8080
     depends_on:
